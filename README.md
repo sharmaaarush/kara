@@ -2,6 +2,8 @@
 *A Personal Movie & TV Show Tracking Application Built with Vibe Coding*
 *https://mykara.org*
 
+[![Built with Bolt](https://img.shields.io/badge/Built%20with-Bolt-blue?style=for-the-badge&logo=bolt&logoColor=white)](https://bolt.new)
+
 ---
 
 ## **🎬 Inspiration**
@@ -65,6 +67,11 @@ Instead of traditional development methodologies, we embraced **vibe coding** - 
 **Vite** - *Picked for its lightning-fast feedback loop that supports creative flow*
 - Hot module replacement for immediate visual feedback
 - Optimized builds that maintain the polished feel in production
+
+**Bolt.new** - *Accelerated development with AI-powered coding assistance*
+- Rapid prototyping and iteration
+- Seamless integration of complex features
+- Maintained code quality while focusing on user experience
 
 ### **Vibe-Driven Architecture:**
 
