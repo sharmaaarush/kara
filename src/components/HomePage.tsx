@@ -13,6 +13,21 @@ export const HomePage: React.FC<HomePageProps> = ({ onAuth }) => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
+      {/* Built with Bolt Badge - Top Left Corner */}
+      <div className="fixed top-4 left-4 z-20">
+        <a
+          href="https://bolt.new"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 bg-blue-600/20 backdrop-blur-sm border border-blue-500/30 rounded-full px-2 py-1 text-xs text-blue-300 hover:bg-blue-600/30 hover:text-blue-200 transition-all duration-200"
+        >
+          <div className="w-3 h-3 bg-blue-400 rounded-full flex items-center justify-center">
+            <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
+          </div>
+          <span className="font-medium">Built with Bolt</span>
+        </a>
+      </div>
+
       {/* Background Pattern - Fixed positioning to prevent scrolling issues */}
       <div className="fixed inset-0 opacity-10 pointer-events-none">
         <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
