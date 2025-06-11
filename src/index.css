@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent white overflow when scrolling */
+html, body {
+  background-color: #111827;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #111827;
+  min-height: 100vh;
+}
+
+/* Ensure the entire viewport is covered */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 50%, #1f2937 100%);
+  background-attachment: fixed;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Hide scrollbar for hot content section */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure no white background anywhere */
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent any white flashes or backgrounds */
+*::before,
+*::after {
+  background-color: inherit;
+}
+
+/* Ensure full coverage on all screen sizes */
+@media (min-height: 100vh) {
+  body {
+    min-height: 100vh;
+  }
+}
