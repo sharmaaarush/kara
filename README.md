@@ -1,5 +1,6 @@
 # **Kara - Your Cinematic Journey**
 *A Personal Movie & TV Show Tracking Application Built with Vibe Coding*
+*https://mykara.org*
 
 ---
 
