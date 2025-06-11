@@ -226,5 +226,5 @@ Through vibe coding, we've created not just a movie tracking app, but a celebrat
 
 ---
 
-*Built with ❤️ using Vibe Coding methodology*
+*Built with ❤️ by Aarush Sharma using Vibe Coding methodology*
 *Where emotion meets engineering, and magic meets code*
